@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema; // Optional shortcut
+const Review = require("./review");
 
 const CampgroundSchema = new Schema({
   title: String,
